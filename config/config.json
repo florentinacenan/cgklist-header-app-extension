@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cgk-list-header-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/cgkListHeader/CgkListHeaderApplicationCustomizer.js",
+          "manifest": "./src/extensions/cgkListHeader/CgkListHeaderApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CgkListHeaderApplicationCustomizerStrings": "lib/extensions/cgkListHeader/loc/{locale}.js"
+  }
+}
